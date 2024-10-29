@@ -5,6 +5,10 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bilbasen", "Bilbasen\Bilbasen.csproj", "{0872F14A-0489-4A7D-8DC4-8C98AECA8783}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract_classes_test", "Abstract_classes_test\Abstract_classes_test.csproj", "{963ED649-6D56-4737-B332-64F8332CDF18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bilbasen_abstract", "Bilbasen_abstract\Bilbasen_abstract.csproj", "{76AF16E8-CA6F-45C8-9156-CF64C4CD2B85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{0872F14A-0489-4A7D-8DC4-8C98AECA8783}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0872F14A-0489-4A7D-8DC4-8C98AECA8783}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0872F14A-0489-4A7D-8DC4-8C98AECA8783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{963ED649-6D56-4737-B332-64F8332CDF18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{963ED649-6D56-4737-B332-64F8332CDF18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{963ED649-6D56-4737-B332-64F8332CDF18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{963ED649-6D56-4737-B332-64F8332CDF18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76AF16E8-CA6F-45C8-9156-CF64C4CD2B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76AF16E8-CA6F-45C8-9156-CF64C4CD2B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76AF16E8-CA6F-45C8-9156-CF64C4CD2B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76AF16E8-CA6F-45C8-9156-CF64C4CD2B85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
