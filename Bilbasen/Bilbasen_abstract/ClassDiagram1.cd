@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bilbasen_abstract.Car">
+    <Position X="5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAJAAAAAAAIAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Car.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bilbasen_abstract.Motorcycle">
+    <Position X="7.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAABAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Motorcycle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bilbasen_abstract.Vehicle">
+    <Position X="6.25" Y="3" Width="1.5" />
+    <Members>
+      <Field Name="Brand" Hidden="true" />
+      <Field Name="Color" Hidden="true" />
+      <Method Name="GetVehicleInfo" Hidden="true" />
+      <Field Name="Model" Hidden="true" />
+      <Method Name="Vehicle" Hidden="true" />
+      <Property Name="Vehicle_Brand" Hidden="true" />
+      <Property Name="Vehicle_Color" Hidden="true" />
+      <Property Name="Vehicle_Model" Hidden="true" />
+      <Property Name="Vehicle_Year" Hidden="true" />
+      <Field Name="Year" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAIBAAAAAQABAAAAAAAEAAAAAAAAAgAgAABAAA=</HashCode>
+      <FileName>Vehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bilbasen.Program">
+    <Position X="9.75" Y="3" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAACAAAAIAAAAAAAAAAAACAAAAAAABAAEAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -111,6 +111,109 @@ namespace Bilbasen
         new Car("Mercedes", "AMG GT S", 2016, "Silver", 523, 8),
         new Car("Volvo", "XC20", 2021, "Gray", 248, 4)
         };
+            /**/
+            Motorcycle[] motorcycles = new Motorcycle[]
+        {
+                        new Motorcycle("Harley-Davidson", "Street 750", 2020, "Black", 750, 2),
+                        new Motorcycle("Kawasaki", "Ninja 300", 2021, "Green", 300, 2),
+                        new Motorcycle("Yamaha", "YZF-R3", 2021, "Blue", 320, 2),
+                        new Motorcycle("Ducati", "Monster 821", 2019, "Red", 821, 2),
+                        new Motorcycle("BMW", "S1000RR", 2022, "White", 200, 4),
+                        new Motorcycle("Suzuki", "GSX-R1000", 2021, "Blue", 199, 4),
+                        new Motorcycle("Honda", "CBR600RR", 2020, "Black", 120, 4),
+                        new Motorcycle("KTM", "RC390", 2021, "Orange", 43, 1),
+                        new Motorcycle("Triumph", "Street Triple", 2022, "Red", 765, 3),
+                        new Motorcycle("Kawasaki", "Versys 650", 2019, "Green", 68, 2),
+                        new Motorcycle("Harley-Davidson", "Iron 883", 2020, "Black", 883, 2),
+                        new Motorcycle("Yamaha", "MT-07", 2022, "Gray", 75, 2),
+                        new Motorcycle("Ducati", "Panigale V2", 2021, "Red", 155, 2),
+                        new Motorcycle("BMW", "F850GS", 2019, "White", 95, 2),
+                        new Motorcycle("Honda", "CB500F", 2020, "Black", 47, 2),
+                        new Motorcycle("Suzuki", "SV650", 2021, "Blue", 75, 2),
+                        new Motorcycle("KTM", "390 Duke", 2020, "Orange", 44, 1),
+                        new Motorcycle("Triumph", "Bonneville T120", 2022, "Silver", 80, 2),
+                        new Motorcycle("Harley-Davidson", "Road King", 2021, "Black", 107, 2),
+                        new Motorcycle("Kawasaki", "Z900", 2019, "Green", 125, 4),
+                        new Motorcycle("Yamaha", "FZ-09", 2020, "Blue", 115, 3),
+                        new Motorcycle("Ducati", "Scrambler Icon", 2021, "Yellow", 73, 2),
+                        new Motorcycle("BMW", "K1600GTL", 2019, "Gray", 160, 6),
+                        new Motorcycle("Suzuki", "Hayabusa", 2021, "Black", 187, 4),
+                        new Motorcycle("KTM", "1290 Super Duke R", 2022, "Orange", 177, 2),
+                        new Motorcycle("Honda", "Gold Wing", 2020, "Blue", 125, 6),
+                        new Motorcycle("Kawasaki", "Ninja H2", 2021, "Green", 228, 4),
+                        new Motorcycle("Yamaha", "MT-09", 2019, "Black", 115, 3),
+                        new Motorcycle("Ducati", "Multistrada V4", 2022, "Red", 170, 4),
+                        new Motorcycle("BMW", "R1250GS", 2021, "White", 136, 2),
+                        new Motorcycle("Harley-Davidson", "Fat Boy", 2020, "Black", 114, 2),
+                        new Motorcycle("Suzuki", "Boulevard M109R", 2021, "Silver", 109, 2),
+                        new Motorcycle("Triumph", "Rocket 3", 2022, "Red", 165, 3),
+                        new Motorcycle("KTM", "690 Enduro R", 2020, "Orange", 74, 1),
+                        new Motorcycle("Honda", "CRF1100L Africa Twin", 2021, "Black", 101, 2),
+                        new Motorcycle("Yamaha", "XSR900", 2022, "Gray", 115, 3),
+                        new Motorcycle("Ducati", "Streetfighter V4", 2021, "Red", 208, 4),
+                        new Motorcycle("BMW", "R nineT", 2020, "White", 110, 2),
+                        new Motorcycle("Harley-Davidson", "LiveWire", 2022, "Green", 105, 0),
+                        new Motorcycle("Kawasaki", "W800", 2019, "Black", 48, 2),
+                        new Motorcycle("Yamaha", "VMAX", 2020, "Black", 197, 4),
+                        new Motorcycle("Suzuki", "V-Strom 1050", 2021, "Yellow", 107, 2),
+                        new Motorcycle("Honda", "NC750X", 2022, "Black", 54, 2),
+                        new Motorcycle("KTM", "790 Duke", 2020, "Orange", 105, 2),
+                        new Motorcycle("Ducati", "Diavel 1260", 2021, "Red", 157, 2),
+                        new Motorcycle("BMW", "F850R", 2020, "Gray", 90, 2),
+                        new Motorcycle("Harley-Davidson", "Softail Slim", 2019, "Black", 107, 2),
+                        new Motorcycle("Triumph", "Thruxton RS", 2021, "Red", 105, 2),
+                        new Motorcycle("Kawasaki", "Z650", 2020, "Green", 68, 2),
+                        new Motorcycle("Yamaha", "Tracer 900", 2021, "Blue", 115, 3),
+                        new Motorcycle("Ducati", "Hyperstrada 939", 2019, "Red", 110, 2),
+                        new Motorcycle("Suzuki", "GSX-S750", 2021, "Blue", 114, 4),
+                        new Motorcycle("KTM", "450 SX-F", 2020, "Orange", 60, 1),
+                        new Motorcycle("Honda", "Grom", 2022, "Black", 9, 1),
+                        new Motorcycle("Harley-Davidson", "CVO Street Glide", 2021, "Silver", 117, 2),
+                        new Motorcycle("BMW", "K1200LT", 2019, "Gray", 130, 4),
+                        new Motorcycle("Yamaha", "YZF-R1", 2022, "Blue", 200, 4),
+                        new Motorcycle("Kawasaki", "Ninja ZX-10R", 2021, "Green", 210, 4),
+                        new Motorcycle("Ducati", "Panigale V4", 2020, "Red", 214, 4),
+                        new Motorcycle("Honda", "CB1000R", 2022, "Black", 143, 4),
+                        new Motorcycle("Suzuki", "GSX-S1000", 2020, "Blue", 150, 4),
+                        new Motorcycle("Triumph", "Speed Triple 1200", 2021, "Gray", 178, 3),
+                        new Motorcycle("KTM", "890 Duke", 2022, "Orange", 115, 2),
+                        new Motorcycle("BMW", "S1000XR", 2021, "White", 165, 4),
+                        new Motorcycle("Harley-Davidson", "Road Glide", 2022, "Black", 107, 2),
+                        new Motorcycle("Yamaha", "FJR1300", 2020, "Silver", 146, 4),
+                        new Motorcycle("Kawasaki", "Concours 14", 2021, "Green", 140, 4),
+                        new Motorcycle("Ducati", "XDiavel", 2020, "Red", 126, 2),
+                        new Motorcycle("Honda", "Rebel 500", 2021, "Black", 47, 2),
+                        new Motorcycle("Suzuki", "SV650X", 2022, "Blue", 75, 2),
+                        new Motorcycle("Triumph", "Scrambler 1200", 2021, "Red", 90, 2),
+                        new Motorcycle("KTM", "1290 Super Adventure", 2021, "Orange", 160, 2),
+                        new Motorcycle("BMW", "C400X", 2022, "Gray", 34, 1),
+                        new Motorcycle("Harley-Davidson", "Street Rod", 2020, "Black", 750, 2),
+                        new Motorcycle("Yamaha", "NMAX", 2021, "White", 15, 1),
+                        new Motorcycle("Kawasaki", "Z125 Pro", 2020, "Green", 8, 1),
+                        new Motorcycle("Ducati", "Monster 1100", 2019, "Red", 100, 2),
+                        new Motorcycle("Honda", "CBR500R", 2022, "Black", 47, 2),
+                        new Motorcycle("Suzuki", "GSX-R125", 2020, "Blue", 15, 1),
+                        new Motorcycle("Triumph", "Tiger 900", 2021, "Gray", 95, 3),
+                        new Motorcycle("KTM", "390 Adventure", 2021, "Orange", 44, 1),
+                        new Motorcycle("BMW", "C650GT", 2020, "White", 60, 2),
+                        new Motorcycle("Harley-Davidson", "Road King Special", 2021, "Black", 114, 2),
+                        new Motorcycle("Yamaha", "TMAX", 2021, "Blue", 47, 2),
+                        new Motorcycle("Kawasaki", "J300", 2020, "Green", 29, 1),
+                        new Motorcycle("Ducati", "Multistrada 950", 2019, "Red", 113, 2),
+                        new Motorcycle("Honda", "CB1100", 2021, "Black", 88, 4),
+                        new Motorcycle("Suzuki", "V-Strom 650", 2020, "Blue", 71, 2),
+                        new Motorcycle("Triumph", "Daytona Moto2", 2021, "Red", 123, 3),
+                        new Motorcycle("KTM", "200 Duke", 2022, "Orange", 25, 1),
+                        new Motorcycle("BMW", "G310R", 2021, "White", 34, 1),
+                        new Motorcycle("Harley-Davidson", "Pan America", 2022, "Black", 125, 2),
+                        new Motorcycle("Yamaha", "YZF-R125", 2020, "Blue", 15, 1),
+                        new Motorcycle("Kawasaki", "KX450", 2021, "Green", 49, 1),
+                        new Motorcycle("Ducati", "DesertX", 2022, "Red", 110, 2),
+                        new Motorcycle("Honda", "CT125", 2021, "Black", 8, 1),
+                        new Motorcycle("Suzuki", "SV650A", 2021, "Blue", 75, 2),
+                        new Motorcycle("Triumph", "Bobber", 2021, "Gray", 78, 2)
+        };
+            /* */
 
             string filter_brand = "Ford";
             int filter_horsepower = 200;
@@ -118,14 +221,14 @@ namespace Bilbasen
             int filter_year_start = 1980;
             int filter_year_end = 1999;
 
-            Console.WriteLine(Print_cars_from_brand(cars, filter_brand));
-            Console.WriteLine(Print_cars_from_horsepower(cars, filter_horsepower));
-            Console.WriteLine(Print_cars_from_color(cars, filter_color));
+            Console.WriteLine(Print_cars_with_brand(cars, filter_brand));
+            Console.WriteLine(Print_cars_with_horsepower(cars, filter_horsepower));
+            Console.WriteLine(Print_cars_with_color(cars, filter_color));
             Console.WriteLine(Print_cars_amount_of_brand(cars, filter_brand));
             Console.WriteLine(Print_cars_year(cars, filter_year_start, filter_year_end));
         }
 
-        static string Print_cars_from_brand(Car[] cars, string filter_brand)
+        static string Print_cars_with_brand(Car[] cars, string filter_brand)
         {
             string result = "";
             for (int i = 0; i < cars.Length; i++)
@@ -138,7 +241,7 @@ namespace Bilbasen
             return result;
         }
 
-        static string Print_cars_from_horsepower(Car[] cars, int filter_horsepower)
+        static string Print_cars_with_horsepower(Car[] cars, int filter_horsepower)
         {
             string result = "";
             for (int i = 0; i < cars.Length; i++)
@@ -151,7 +254,7 @@ namespace Bilbasen
             return result;
         }
 
-        static string Print_cars_from_color(Car[] cars, string filter_color)
+        static string Print_cars_with_color(Car[] cars, string filter_color)
         {
             string result = "";
             for (int i = 0; i < cars.Length; i++)
