@@ -1,47 +1,18 @@
-﻿
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 
 namespace Bilbasen_abstract
 {
-    public class Car
+    public class Car : Vehicle
     {
-        private String Brand;
-        private String Model;
-        private int Year;
-        private String Color;
         private int HorsePower;
         private int NumberOfCylinders;
 
-
-        public String Car_Brand
-        {
-            get { return Brand; }
-            set { Brand = value; }
-        }
-        public String Car_Model
-        {
-            get { return Model; }
-            set { Model = value; }
-        }
-        public int Car_Year
-        {
-            get { return Year; }
-            set { Year = value; }
-        }
-        public String Car_Color
-        {
-            get { return Color; }
-            set { Color = value; }
-        }
         public int Car_HorsePower
         {
             get { return HorsePower; }
             set { HorsePower = value; }
         }
+
         public int Car_NumberOfCylinders
         {
             get { return NumberOfCylinders; }
@@ -49,14 +20,15 @@ namespace Bilbasen_abstract
         }
 
         public Car(string brand, string model, int year, string color, int horsePower, int numberOfCylinders)
+            : base(brand, model, year, color)
         {
-            Brand = brand;
-            Model = model;
-            Year = year;
-            Color = color;
             HorsePower = horsePower;
             NumberOfCylinders = numberOfCylinders;
         }
-    }
 
+        public override string GetVehicleInfo()
+        {
+            return $"Car - Brand: {Vehicle_Brand}, Model: {Vehicle_Model}, Year: {Vehicle_Year}, Color: {Vehicle_Color}, HorsePower: {Car_HorsePower}, Cylinders: {Car_NumberOfCylinders}";
+        }
+    }
 }

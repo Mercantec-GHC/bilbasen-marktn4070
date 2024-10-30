@@ -1,13 +1,10 @@
-﻿using Bilbasen_abstract;
+﻿using System;
+using Bilbasen_abstract;
+
 namespace Bilbasen
 {
-
-    public class Program : Car
+    public class Program
     {
-        public Program(string brand, string model, int year, string color, int horsePower, int numberOfCylinders) : base(brand, model, year, color, horsePower, numberOfCylinders)
-        {
-        }
-
         static void Main()
         {
             Car[] cars = new Car[]
@@ -121,91 +118,76 @@ namespace Bilbasen
             int filter_year_start = 1980;
             int filter_year_end = 1999;
 
-
-
-
-
-
             Console.WriteLine(Print_cars_from_brand(cars, filter_brand));
             Console.WriteLine(Print_cars_from_horsepower(cars, filter_horsepower));
             Console.WriteLine(Print_cars_from_color(cars, filter_color));
             Console.WriteLine(Print_cars_amount_of_brand(cars, filter_brand));
             Console.WriteLine(Print_cars_year(cars, filter_year_start, filter_year_end));
+        }
 
-
-
-            static string Print_cars_from_brand(Car[] cars, string filter_brand)
+        static string Print_cars_from_brand(Car[] cars, string filter_brand)
+        {
+            string result = "";
+            for (int i = 0; i < cars.Length; i++)
             {
-                string result = "";
-                for (int i = 0; i < cars.Length; i++)
+                if (cars[i].Vehicle_Brand == filter_brand)
                 {
-                    if (cars[i].Car_Brand == filter_brand)
-                    {
-                        result += $"Brand: {cars[i].Car_Brand} {cars[i].Car_Model}\t Årgang: {cars[i].Car_Year}\tFarve: {cars[i].Car_Color}\tHestekræfter: {cars[i].Car_HorsePower}\n";
-                    }
+                    result += $"Brand: {cars[i].Vehicle_Brand} {cars[i].Vehicle_Model}\t Årgang: {cars[i].Vehicle_Year}\tFarve: {cars[i].Vehicle_Color}\tHestekræfter: {cars[i].Car_HorsePower}\n";
                 }
-                return result;
             }
+            return result;
+        }
 
-
-
-            static string Print_cars_from_horsepower(Car[] cars, int filter_horsepower)
+        static string Print_cars_from_horsepower(Car[] cars, int filter_horsepower)
+        {
+            string result = "";
+            for (int i = 0; i < cars.Length; i++)
             {
-                string result = "";
-                for (int i = 0; i < cars.Length; i++)
+                if (cars[i].Car_HorsePower > filter_horsepower)
                 {
-                    if (cars[i].Car_HorsePower > filter_horsepower)
-                    {
-                        result += $"Brand: {cars[i].Car_Brand} {cars[i].Car_Model}\t Årgang: {cars[i].Car_Year}\tFarve: {cars[i].Car_Color}\tHestekræfter: {cars[i].Car_HorsePower}\n";
-                    }
+                    result += $"Brand: {cars[i].Vehicle_Brand} {cars[i].Vehicle_Model}\t Årgang: {cars[i].Vehicle_Year}\tFarve: {cars[i].Vehicle_Color}\tHestekræfter: {cars[i].Car_HorsePower}\n";
                 }
-                return result;
             }
+            return result;
+        }
 
-
-            static string Print_cars_from_color(Car[] cars, string filter_color)
+        static string Print_cars_from_color(Car[] cars, string filter_color)
+        {
+            string result = "";
+            for (int i = 0; i < cars.Length; i++)
             {
-                string result = "";
-                for (int i = 0; i < cars.Length; i++)
+                if (cars[i].Vehicle_Color == filter_color)
                 {
-                    if (cars[i].Car_Color == filter_color)
-                    {
-                        result += $"Brand: {cars[i].Car_Brand} {cars[i].Car_Model}\t Årgang: {cars[i].Car_Year}\tFarve: {cars[i].Car_Color}\tHestekræfter: {cars[i].Car_HorsePower}\n";
-                    }
+                    result += $"Brand: {cars[i].Vehicle_Brand} {cars[i].Vehicle_Model}\t Årgang: {cars[i].Vehicle_Year}\tFarve: {cars[i].Vehicle_Color}\tHestekræfter: {cars[i].Car_HorsePower}\n";
                 }
-                return result;
             }
+            return result;
+        }
 
-            static int Print_cars_amount_of_brand(Car[] cars, string filter_brand)
+        static int Print_cars_amount_of_brand(Car[] cars, string filter_brand)
+        {
+            int count_brand = 0;
+            for (int i = 0; i < cars.Length; i++)
             {
-                int count_brand = 0;
-                for (int i = 0; i < cars.Length; i++)
+                if (cars[i].Vehicle_Brand == filter_brand)
                 {
-                    if (cars[i].Car_Brand == filter_brand)
-                    {
-                        count_brand++;
-                    }
-
+                    count_brand++;
                 }
-                return count_brand;
             }
+            return count_brand;
+        }
 
-
-            static string Print_cars_year(Car[] cars, int filter_year_start, int filter_year_end)
+        static string Print_cars_year(Car[] cars, int filter_year_start, int filter_year_end)
+        {
+            string result = "";
+            for (int i = 0; i < cars.Length; i++)
             {
-                string result = "";
-                for (int i = 0; i < cars.Length; i++)
+                if (cars[i].Vehicle_Year >= filter_year_start && cars[i].Vehicle_Year <= filter_year_end)
                 {
-                    if (cars[i].Car_Year >= filter_year_start && (cars[i].Car_Year <= filter_year_end))
-                    {
-                        result += $"Brand: {cars[i].Car_Brand} {cars[i].Car_Model}\t Årgang: {cars[i].Car_Year}\tFarve: {cars[i].Car_Color}\tHestekræfter: {cars[i].Car_HorsePower}\n";
-                    }
+                    result += $"Brand: {cars[i].Vehicle_Brand} {cars[i].Vehicle_Model}\t Årgang: {cars[i].Vehicle_Year}\tFarve: {cars[i].Vehicle_Color}\tHestekræfter: {cars[i].Car_HorsePower}\n";
                 }
-                return result;
             }
+            return result;
         }
     }
-
-
-
 }
